@@ -1,0 +1,25 @@
+﻿@model Dictionary<string,Setting>
+
+<div class="col-lg-3 col-md-6 info">
+    <i class="bi bi-geo-alt"></i>
+    <h4>Location:</h4>
+    <p>@Model["Location"].Value</p>
+</div>
+
+<div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+    <i class="bi bi-clock"></i>
+    <h4>Open Hours:</h4>
+    <p>@Model["Open_Hours"].Value</p>
+</div>
+
+<div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+    <i class="bi bi-envelope"></i>
+    <h4>Email:</h4>
+    <p>@Model["Email"].Value</p>
+</div>
+
+<div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+    <i class="bi bi-phone"></i>
+    <h4>Call:</h4>
+    <p>@Model["Call"].Value</p>
+</div>
